@@ -39,7 +39,7 @@
   background-image: url(../images/screems/apreciodepana.png);
 }
 .project-image > #urbaner {
-  background-image: url(../images/screems/urbaner.png);
+  background-image: url(../images/screems/pollux.png);
 }
 
 
@@ -47,8 +47,8 @@
   animation: moveSlideshow 50s linear infinite;
 }
 @keyframes moveSlideshow {
-  100% { 
-    transform: translateY(-66.6666%);  
+  100% {
+    transform: translateY(-66.6666%);
   }
 }
 /*TEXT STYLE*/
