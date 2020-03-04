@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
     <!-- Plugins CSS -->
     <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
@@ -81,39 +82,73 @@
 
         <div class="main-wrapper">
 
+<div class="text-center">
+    <input id="language" type="checkbox" checked data-offstyle="warning"
+    data-toggle="toggle" data-on="English" data-off="Spanish">
+
+</div>
+
 
  			<section class="section summary-section">
-                <h2 class="section-title"><i class="fa fa-user"></i>Career Profile </h2>
+                <h2 class="section-title english"><i class="fa fa-user"></i>Career Profile </h2>
+                <h2 class="section-title spanish hidden"><i class="fa fa-user"></i>Perfil Profesional </h2>
                 <div class="summary">
 
-<p>
-    If I could do anything all my life, it would be to learn.
+<div class="self-desc english">
+        <p>
+            If I could do anything all my life, it would be to learn.
 
-</p>
+        </p>
 
-<p>
+        <p>
 
-Luckily my career has allowed me to learn technologies, approaches, methodologies,
-that allow me to learn and problem solving,
-not only in purely machine, process, software skills, etc.
- But also how to work with people,
- how to generate a productive and friendly work environment.
- I like to help me and my colleagues to get the best version of ourselves.
-</p>
-Although my favorite language is Python, and my strength is mostly on the backend,
-I'm not afraid to do things on the front end, I've had fun with layout and css style things,
- and to work with Javascript.
+        Luckily my career has allowed me to learn technologies, approaches, methodologies,
+        that allow me to learn and problem solving,
+        not only in purely machine, process, software skills, etc.
+         But also how to work with people,
+         how to generate a productive and friendly work environment.
+         I like to help me and my colleagues to get the best version of ourselves.
+        </p>
+        Although my favorite language is Python, and my strength is mostly on the backend,
+        I'm not afraid to do things on the front end, I've had fun with layout and css style things,
+         and to work with Javascript.
 
-I've been a Linux user for more than 7 years, so I feel like a fish in the water
- on the command line
+        I've been a Linux user for more than 7 years, so I feel like a fish in the water
+         on the command line
 
 
- Throughout my career I have taken on different roles: Full Stack, SysAdmin, DevOPs,
- Backend, Development Leader and Project Manager
+         Throughout my career I have taken on different roles: Full Stack, SysAdmin, DevOPs,
+         Backend, Development Leader and Project Manager
 
- I have also dealt with clients directly, as a Consultant.
-</p>
+         I have also dealt with clients directly, as a Consultant.
+        </p>
 
+</div>
+<div class="self-desc spanish hidden">
+        <p>
+            Si pudiera hacer algo por toda mi vida, sería aprender
+
+        </p>
+
+        <p>
+            Por suerte mi carrera me ha permitido aprender tecnologías, enfoques, metodologías,
+            que me permiten aprender y resolver problemas, no sólo en las habilidades puramente
+            mecánicas, de proceso, de software, etc. Sino también en cómo trabajar con la gente,
+            cómo generar un ambiente de trabajo productivo y amigable.
+            Me gusta ayudarme a mí y a mis colegas a obtener la mejor versión de nosotros mismos.
+        </p>
+            Aunque mi lenguaje de preferencia es Python, y mi fortaleza esta principalmente
+            en el backend. No le temo a hacer cosas en el frontend.
+            Me he divertido con el diseño y hacer estilos en css, y trabajar con Javascript.
+
+             He sido un usuario de Linux por más de 7 años, así que me siento
+             como un pez en el agua en la línea de comandos.
+             A lo largo de mi carrera he asumido diferentes roles: Full Stack, SysAdmin, DevOps,
+             Backend, Líder de Desarrollo y Gerente de Proyecto.
+             También he tratado con clientes directamente, como consultor.
+        </p>
+
+</div>
 
 
                 </div><!--//resumen-->
@@ -610,6 +645,7 @@ Hardware and Free (as in freedom)</a></span>
     <!-- Javascript -->
     <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
     <!-- custom js -->
     <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
