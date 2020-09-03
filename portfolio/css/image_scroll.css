@@ -11,13 +11,16 @@
   width: 300px;
   height: 850px;
   background: url(file:///home/oscar/Documents/vert.png);
-  background-position: center;
+  /* background-position: center; */
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .project-image > #frasesdragonball {
   background-image: url(../images/screems/frasesdragonball.png);
+}
+.project-image > #movimientoz {
+  background-image: url(../images/screems/movimientoz.png);
 }
 
 .project-image > #orangetravelassist {
