@@ -7,7 +7,8 @@ jQuery(document).ready(function($) {
     $('.level-bar-inner').css('width', '0');
 
     $(window).on('load', function() {
-
+        $(".spanish").removeClass("hidden");
+        $(".english").addClass("hidden");
         $('.level-bar-inner').each(function() {
 
             var itemWidth = $(this).data('level');
@@ -20,16 +21,16 @@ jQuery(document).ready(function($) {
 
     });
 
-  $('#language').change(function() {
-    console.log(this.checked);
-    if(this.checked){
-        $(".english").removeClass("hidden");
-        $(".spanish").addClass("hidden");
-    }else{
-        $(".spanish").removeClass("hidden");
-        $(".english").addClass("hidden");
-    }
-
-  })
+  // $('#language').change(function() {
+  //   console.log(this.checked);
+  //   if(this.checked){
+  //       $(".english").removeClass("hidden");
+  //       $(".spanish").addClass("hidden");
+  //   }else{
+  //       $(".spanish").removeClass("hidden");
+  //       $(".english").addClass("hidden");
+  //   }
+  //
+  // })
 
 });
